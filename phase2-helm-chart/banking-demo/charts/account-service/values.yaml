@@ -7,7 +7,7 @@ account-service:
     tag: latest
     pullPolicy: Always
   imagePullSecrets: []
-  replicas: 1
+  replicas: 2
   service:
     port: 8002
     portName: http
