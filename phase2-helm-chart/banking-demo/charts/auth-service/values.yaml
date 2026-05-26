@@ -3,8 +3,8 @@ auth-service:
   fullnameOverride: auth-service
   enabled: true
   image:
-    repository: registry.gitlab.com/kiettt164/banking-demo-payment/auth-service
-    tag: 2d4c7af
+    repository: hiepvh8/banking-auth-service
+    tag: latest
     pullPolicy: Always
   imagePullSecrets: []
   replicas: 2

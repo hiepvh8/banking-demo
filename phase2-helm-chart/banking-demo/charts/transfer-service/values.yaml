@@ -3,8 +3,8 @@ transfer-service:
   fullnameOverride: transfer-service
   enabled: true
   image:
-    repository: registry.gitlab.com/kiettt164/banking-demo-payment/transfer-service
-    tag: 2d4c7af
+    repository: hiepvh8/banking-transfer-service
+    tag: latest
     pullPolicy: Always
   imagePullSecrets: []
   replicas: 2

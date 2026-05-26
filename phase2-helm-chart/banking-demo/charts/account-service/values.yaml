@@ -3,8 +3,8 @@ account-service:
   fullnameOverride: account-service
   enabled: true
   image:
-    repository: registry.gitlab.com/kiettt164/banking-demo-payment/account-service
-    tag: 2d4c7af
+    repository: hiepvh8/banking-account-service
+    tag: latest
     pullPolicy: Always
   imagePullSecrets: []
   replicas: 1

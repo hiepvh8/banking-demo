@@ -3,8 +3,8 @@ frontend:
   fullnameOverride: frontend
   enabled: true
   image:
-    repository: registry.gitlab.com/kiettt164/banking-demo-payment/frontend
-    tag: 2d4c7af
+    repository: hiepvh8/banking-frontend
+    tag: latest
     pullPolicy: IfNotPresent
   imagePullSecrets: []
   replicas: 1
